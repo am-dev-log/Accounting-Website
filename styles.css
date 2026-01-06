@@ -30,15 +30,16 @@ button {
 }
 
 #accbutton {
-	outline: none;      
-	border: none;         
-	background: none;     
-	box-shadow: none;     
+    padding: 3rem 3rem;
+    font-size: 1rem;   
     cursor: pointer;
 }
 
-#accbutton:hover,
-#accbutton:focus {
-	background: none;
-	box-shadow: none;
+#dmbutton {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 1rem;
+    padding: 1rem 1rem;
+    color: #00ffff;
 }
