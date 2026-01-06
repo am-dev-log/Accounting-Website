@@ -22,24 +22,23 @@ button {
     cursor: pointer;
 }
 
-button1 {
+#button1 {
 	padding: 3rem 3rem;
     font-size: 1rem;
+	color: #00ffff;
     cursor: pointer;
 }
 
-accbutton {
+#accbutton {
 	outline: none;      
 	border: none;         
 	background: none;     
 	box-shadow: none;     
-	padding: 3rem 3rem;
-    font-size: 1rem;
     cursor: pointer;
 }
-accbutton:hover,
-accbutton:focus,
-accbutton:action {
+
+#accbutton:hover,
+#accbutton:focus {
 	background: none;
 	box-shadow: none;
 }
