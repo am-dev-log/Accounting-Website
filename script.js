@@ -1,5 +1,7 @@
 console.log("script loaded");
 
+const bg = document.body;
+
 const toolsBtn = document.getElementById("button");
 if (toolsBtn) {
   toolsBtn.addEventListener("click", () => {
