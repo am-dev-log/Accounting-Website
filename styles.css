@@ -1,0 +1,44 @@
+body {
+    font-family: sans-serif;
+    background-color: #000000;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 3rem;
+}
+
+main {
+    padding: 2rem;
+}
+
+button {
+    padding: 3rem 3rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+#button1 {
+	padding: 3rem 3rem;
+    font-size: 1rem;
+	color: #00ffff;
+    cursor: pointer;
+}
+
+#accbutton {
+	outline: none;      
+	border: none;         
+	background: none;     
+	box-shadow: none;     
+    cursor: pointer;
+}
+
+#accbutton:hover,
+#accbutton:focus {
+	background: none;
+	box-shadow: none;
+}
