@@ -1,17 +1,8 @@
 console.log("script loaded");
 
-const bg = document.body;
+const body = document.body;
+const fbtn = document.getElementById("fbtn");
 
-const toolsBtn = document.getElementById("button");
-if (toolsBtn) {
-  toolsBtn.addEventListener("click", () => {
-    window.location.href = "tools.html";
-  });
-}
+fbtn.addEventListener("click", () => {
 
-const accountsBtn = document.getElementById("button1");
-if (accountsBtn) {
-  accountsBtn.addEventListener("click", () => {
-    window.location.href = "acc.html";
-  });
-}
+});
